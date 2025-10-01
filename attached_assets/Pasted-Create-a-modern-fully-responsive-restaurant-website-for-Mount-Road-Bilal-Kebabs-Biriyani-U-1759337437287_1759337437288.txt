@@ -1,0 +1,48 @@
+Create a modern, fully responsive restaurant website for "Mount Road Bilal – Kebabs & Biriyani". 
+Use a brown and white color scheme (matching wood texture + white text from the logo). 
+Make it clean, minimal, but interactive with smooth animations and transitions. 
+
+The website should include the following pages and features:
+1. **Home Page**
+   - Hero section with restaurant name and tagline.
+   - Background with subtle brown wood texture.
+   - Animated text and button (e.g., "Order Now", "View Menu").
+   - Scrolling animation effects for sections.
+
+2. **About Us Page**
+   - Short history of the restaurant.
+   - Highlight that it has multiple branches.
+   - Use timeline or animated cards to show milestones.
+
+3. **Menu Page**
+   - Interactive food list with categories (Biriyani, Kebabs, Starters, Drinks, Desserts).
+   - Each item should have name, image, price, and short description.
+   - Hover effects (zoom-in or highlight).
+
+4. **Branches Page**
+   - Display list of multiple branches with Google Maps embed for each location.
+   - Include branch address, phone number, and timings.
+   - Use cards with animation on hover.
+
+5. **Contact Page**
+   - Simple contact form (Name, Email, Message).
+   - WhatsApp button for instant order.
+   - Phone number and email clickable links.
+
+6. **Navbar & Footer**
+   - Sticky navbar with smooth scrolling between sections.
+   - Footer with social media links (Instagram, Facebook).
+   - Copyright notice.
+
+7. **General Style**
+   - Use brown (#6B4226 or similar) and white (#FFFFFF) as primary colors.
+   - Use modern fonts like "Poppins" or "Montserrat".
+   - Add hover animations on buttons and images.
+   - Make everything mobile-friendly.
+
+Tech Requirements:
+- Use HTML, CSS, and JavaScript (backend should be such a wayfor only required stuff such as details collected meas it should go to mail of the restaurant like that ). 
+- Use animation libraries like AOS.js or GSAP for smooth effects.
+- Responsive design for both mobile and desktop.
+
+Final Goal: The website should look premium and interactive, so restaurant owners will immediately want to buy it
