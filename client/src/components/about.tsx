@@ -107,8 +107,6 @@ export default function About() {
             Our Journey
           </h3>
 
-          {/* Timeline Line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-brand-light-brown hidden md:block"></div>
 
           <div className="space-y-12">
             {timeline.map((item, index) => (
@@ -117,22 +115,12 @@ export default function About() {
                 ref={(el) => (itemRefs.current[index] = el)}
                 className={`relative transition-all duration-700 ${
                   visibleItems[index]
-                    ? 'opacity-100 translate-x-0'
-                    : index % 2 === 0
-                    ? 'opacity-0 -translate-x-8'
-                    : 'opacity-0 translate-x-8'
+                    ? 'opacity-100 translate-y-0'
+                    : 'opacity-0 translate-y-8'
                 }`}
               >
-                <div
-                  className={`${
-                    index % 2 === 0
-                      ? 'md:w-1/2 md:pr-12 md:text-right'
-                      : 'md:w-1/2 md:ml-auto md:pl-12'
-                  }`}
-                >
-                  <div className="bg-brand-cream p-6 rounded-lg shadow-lg relative">
-                    {/* Timeline Dot */}
-                    <div className="hidden md:block absolute top-1/2 transform -translate-y-1/2 w-5 h-5 rounded-full bg-brand-light-brown border-4 border-brand-brown left-1/2 -translate-x-1/2"></div>
+                <div className="max-w-2xl mx-auto">
+                  <div className="bg-brand-cream p-6 rounded-lg shadow-lg">
                     <h4 className="text-2xl font-poppins font-bold text-brand-brown mb-2">
                       {item.year}
                     </h4>
