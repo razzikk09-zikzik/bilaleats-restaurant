@@ -22,7 +22,7 @@ const timeline: TimelineItem[] = [
       'Opening of our flagship branch with a modernized dining experience while preserving traditional flavors',
   },
   {
-    year: '2024',
+    year: '2025',
     description:
       'Now serving across 5 branches with online ordering and delivery services while maintaining our commitment to quality',
   },
